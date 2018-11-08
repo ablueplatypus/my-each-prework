@@ -2,7 +2,7 @@ def my_each(array_argument)
   i = 0
    while i < array_argument.length
      yield array_argument[i]
-     i++
+     i += 1
   end
   return array_argument
 end
